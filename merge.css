@@ -68,9 +68,9 @@ button:hover {
 
 .content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
-    row-gap: 50px;
+    
     flex-wrap: wrap;
 }
 
@@ -91,7 +91,8 @@ button:hover {
     justify-content: center;
     align-self: center;
     margin-top: 100px;
-    width: 500px;
+    margin-left: 3%;
+    width: 30%;
     height: 600px;
 }
 
