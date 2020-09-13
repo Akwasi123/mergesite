@@ -22,7 +22,7 @@ html{
     header{
         border: 3px solid transparent;
         text-align: center;
-        word-spacing: 3vw;
+        word-spacing: 1vw;
         background-color: black;
         box-shadow: 3px 5px 10px darkgrey;
         padding: 1vw;
