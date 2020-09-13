@@ -1,26 +1,90 @@
-@media(min-width: 700px){
+html{
+    font-size: 17pt;
+}
+
+@media(min-width: 800px){
     .content{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
+}
+
+@media(min-width: 500px){
+    img{
+        max-width: 100%;
+    }
+
+    
+}
+
+@media(min-width: 700px){
+    header{
+        border: 3px solid transparent;
+        text-align: center;
+        word-spacing: 30px;
+        background-color: black;
+        box-shadow: 3px 5px 10px darkgrey;
+        padding: 0 10vw;
+    }
+
+    .logo{
+        width: 550px;
+    }
+}
+
+header{
+    border: 3px solid transparent;
+    text-align: center;
+    word-spacing: 30px;
+    background-color: black;
+    box-shadow: 3px 5px 10px darkgrey;
+    padding: 0 10vw;
+}
+
+li, a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.links li{
+    display: inline-block;
+    padding: 8px 5px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: red;
 
 }
 
+.links li a:hover{
+    color: rgba(red, green, blue, alpha);
+}
 
+.logo{
+    max-width: 100%;
+    width: 5%;
+    margin-right: auto;
+}
 
 .content div{
-    border: 1px solid black;
+    
 }
 
 #main{
     flex-basis: 50%;
+    
 }
 
 #side-content{
     flex-basis: 40%;
+    font-size: 1rem;
+    padding: 20px;
+    
+    
+    
 }
 
-img{
-    max-width: 100%;
-}
+
