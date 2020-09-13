@@ -1,120 +1,40 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
-    background-color: #24252A;
-}
-
-body{
-    margin: 0 20px 0 20px;
-}
-
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0px  10%;
-}
-
-li, a {
-    font-family: sans-serif;
-    text-decoration: none;
-    font-size: 17pt;
-    font-weight: 500;
-    color: white;
-}
-
-.logo {
-    margin-right: auto;
-    cursor: pointer;
-    width: 100px;
-    height: auto;
-}
-
-.links {
-    list-style: none;
-}
-
-.links li {
-    display: inline-block;
-    padding: 8px 20px;
-}
-
-.links li a{
-    transition: all 0.3s ease 0s;
-}
-
-.links li a:hover {
-    color: rgba(0, 136, 169, 1);
-}
-
-button {
-    color: white;
-    border: none;
-    border-radius: 20px;
-    font-size: 17pt;
-    width: 130px;
-    padding: 5px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;   
-    margin-left: 20px;
-    background-color: rgba(0, 136, 169, 1);
-}
-
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-.content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+@media(min-width: 700px){
+    .content1{
+        display: flex;
+        
+    }
     
-    flex-wrap: wrap;
-}
-
-#main {
-    border: 3px solid transparent;
-    width: 1000px;
-    height: 600px;
-    align-self: center;
-    margin-top: 70px;
+    .content2{
+        display: flex;
+        justify-content: flex-start;
+    }
     
-
 }
 
-#side-content {
-    border: 1px solid lightgrey;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin-top: 100px;
-    margin-left: 3%;
-    width: 500px;
-    height: 600px;
+
+
+.content1  div, .content2 div{
+    border: 1px solid black;
+    padding: 20px;
 }
 
-#button {
-    display: flex;
-    align-self: flex-end;
+#box1{
+    flex: 1;
+    order: 1;
+    
+    
 }
 
-#side-content p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35pt;
-
+#box2{
+    flex: 1;
+    order: 2;
 }
 
-.start-img{
-    max-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
+#box3{
+    flex: 1;
+    order: 3;
 }
 
-i{
-    background-color: rgba(0, 136, 169, 1);
+#box{
+    flex-basis: 30%;
 }
-
