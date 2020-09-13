@@ -1,40 +1,26 @@
 @media(min-width: 700px){
-    .content1{
+    .content{
         display: flex;
-        
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    
-    .content2{
-        display: flex;
-        justify-content: flex-start;
-    }
-    
+
 }
 
 
 
-.content1  div, .content2 div{
+.content div{
     border: 1px solid black;
-    padding: 20px;
 }
 
-#box1{
-    flex: 1;
-    order: 1;
-    
-    
+#main{
+    flex-basis: 50%;
 }
 
-#box2{
-    flex: 1;
-    order: 2;
+#side-content{
+    flex-basis: 40%;
 }
 
-#box3{
-    flex: 1;
-    order: 3;
-}
-
-#box{
-    flex-basis: 30%;
+img{
+    max-width: 100%;
 }
